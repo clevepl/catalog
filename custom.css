@@ -1,0 +1,193 @@
+#system-message-header {
+  padding: 0 !important;
+}
+
+.system-message {
+  padding: 12px;
+}
+
+.alert-info {
+  background-color: #F1C400;
+  font-weight: bold;
+  margin: 0;
+  border: 0;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+}
+
+.alert-info p {
+  margin: 0;
+}
+
+.close { 
+  opacity: 1; 
+  color: #111;
+  text-shadow: none;
+}
+
+#header-wrapper { padding-bottom: 4em !important; }
+
+#horizontal-menu-bar-container { 
+  border: none;
+  background-color: transparent !important;
+  margin-top: -3em !important;
+}
+
+#horizontal-search-container { background: #002D73; }
+#horizontal-search-box { background: transparent; }
+
+#header-logo { max-width: 240px; padding: 20px 0 10px; }
+
+a#browseLink i { font-size: 1em !important; }
+a#browseLink i:after {
+    content: " Catalog Home";
+    margin-left: 5px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.menu-section-right .menu-icon,
+.menu-section-right a.dropdown-toggle > span {
+  background: #00378B !important;
+}
+
+.menu-section-right .menu-icon:hover,
+.menu-section-right .menu-icon:hover span, 
+.menu-section-right .menu-icon:focus,
+.menu-section-right .menu-icon:focus span {
+  color: #F1C400 !important;
+}
+
+#home-page-browse-header { 
+ background: #F5F5F5; 
+-webkit-border-bottom-right-radius: 6px;
+-webkit-border-bottom-left-radius: 6px;
+-moz-border-radius-bottomright: 6px;
+-moz-border-radius-bottomleft: 6px;
+border-bottom-right-radius: 6px;
+border-bottom-left-radius: 6px;
+}
+
+.browse-category, #browse-sub-category-menu button, .manual [role="tab"], .manual .hide-browse-sub-category, .manual .more-browse-sub-category {
+  border-color: #E1E1E1 !important;
+  background-color: #E1E1E1 !important;
+  font-weight: bold !important;
+  cursor: pointer;
+}
+
+.browse-category:hover {
+  border-color: #D8D8D8 !important;
+  background-color: #D8D8D8 !important;
+}
+
+.browse-category.selected {
+  border-color: #0057B7 !important;
+  background-color: #0057B7 !important;
+  color: #fff !important;
+}
+
+.browse-category.selected:hover {
+  border-color: #00378B !important;
+  background-color: #00378B !important;
+  color: #fff !important;
+}
+
+.jcarousel-pagination a { background: #D0D0D0; }
+.jcarousel-pagination a.active { background: #0057B7; }
+.jcarousel-pagination a.active:hover { background: #00378B; }
+
+#horizontal-search-button-container .btn-default {
+  background: #F1C400 !important;
+  color: #111 !important;
+  border-color: #F1C400 !important;
+}
+
+#horizontal-search-button-container .btn-default:hover {
+  background: #FFDB3C !important;
+  border-color: #FFDB3C !important;
+}
+
+#more-browse-results {
+  color: #0057B7;
+}
+
+#footer-container {
+    border-top-color: transparent;
+    background-image: url(/files/original/headerBackgroundImageaspen-header.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 1em;
+    border-top: 0 !important;
+    padding-left: 0;
+}
+
+#ssoStaffLogin a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
+
+#ssoStaffLogin a:hover {
+  color: #F1C400 !important;
+}
+
+#footer-branding-image {
+   margin-top: 100px;
+   margin-bottom: 10px;
+}
+
+@media( max-width: 767px) {
+  #footer-branding-image {
+   margin-top: 20px;
+   margin-bottom: 20px;
+  }
+}
+
+#footer-branding-image img {
+  width: 50px;
+}
+
+#footer-branding-image:after {
+    content: "© 2025 Cleveland Public Library";
+    display: block;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.placard a {
+color: #0057b7 !important;
+text-decoration: underline; 
+
+    &:hover {
+		text-decoration-line: underline;
+		text-decoration-style: dashed;
+     }
+
+}
+
+.placard {
+padding: 20px 16px 10px;
+margin-bottom: 0;
+border: none;
+border-radius: 0 !important;
+background-color: #F1C400;
+font-size: 14px;
+color: #000;
+margin-bottom: 20px;
+}
+
+.alert-warning {
+padding: 18px 12px 10px;
+margin-bottom: 0;
+border: none;
+font-weight: bold;
+border-radius: 0 !important;
+background-color: #FF8D7E;
+font-size: 16px;
+}
+
+#more-details-accordion .panel-body {
+font-size: 14px; 
+}
